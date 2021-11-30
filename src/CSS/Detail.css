@@ -1,0 +1,89 @@
+.detail_main {
+  width: 90%;
+  margin: 10px auto;
+}
+.deatil_wrapper {
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+}
+.university_img {
+  width: 100px;
+  height: 100px;
+}
+.university_img2 {
+  display: none;
+}
+.btnn {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 10%;
+  margin: 10px auto;
+  transition: 0.5s all ease;
+}
+.btnn:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 10%;
+  margin: 10px auto;
+  background: #f8f9f9;
+}
+.btnn h6 {
+  padding: 12px 2px;
+  color: #1f618d;
+}
+.btnn h6:hover {
+  padding: 12px 2px;
+  color: #27ae60;
+  text-decoration: none;
+}
+.return{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 10%;
+    margin: 10px 0;
+    background: #f8f9f9;
+    cursor: pointer;
+}
+.return h5{
+    text-align: center;
+    padding: 5px 3px;
+    transition: all ease-in-out;
+}
+.return h5:hover{
+    text-align: center;
+    padding: 5px 3px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 580px) {
+  .deatil_wrapper {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  .university_img {
+    display: none;
+  }
+  .university_img2 {
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+  }
+  .return{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 20%;
+    margin: 10px 0;
+    background: #f8f9f9;
+    cursor: pointer;
+}
+.return h5{
+    text-align: center;
+    padding: 5px 3px;
+    transition: all ease-in-out;
+}
+.return h5:hover{
+    text-align: center;
+    padding: 5px 3px;
+    font-weight: bold;
+}
+}
